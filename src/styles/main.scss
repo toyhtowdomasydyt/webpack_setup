@@ -1,0 +1,21 @@
+@import "./mixins/font_face";
+@import "fonts.scss";
+
+$background-color: mediumpurple;
+
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    background-color: $background-color;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    font-size: 68px;
+    text-align: center;
+}
